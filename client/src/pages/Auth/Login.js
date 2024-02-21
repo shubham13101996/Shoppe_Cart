@@ -42,7 +42,7 @@ const Login = () => {
 
   return (
     <Layouts title={"Login - Ecommerce App"}>
-      <div className="form-container">
+      <div className="form-container rounded-lg">
         {/* <h1>Register Page</h1> */}
         <form onSubmit={handleSubmit}>
           <h4 className="title">LOGIN FORM</h4>
@@ -91,15 +91,7 @@ const Login = () => {
             </button>
           </div>
 
-          <div className="mb-3">
-            <button
-              type="submit"
-              className="btn btn-primary"
-              onClick={() => navigate("/forgot-password")}
-            >
-              FORGOT PASSWORD
-            </button>
-          </div>
+        
         </form>
       </div>
     </Layouts>

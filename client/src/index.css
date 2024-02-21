@@ -222,6 +222,7 @@ body {
   justify-content: center;
   min-height: 82vh;
   flex-direction: column;
+  
 }
 
 .form-container form {

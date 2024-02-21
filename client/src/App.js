@@ -5,7 +5,6 @@ import Contact from "./pages/Contact";
 import Register from "./pages/Auth/Register";
 import Login from "./pages/Auth/Login";
 import About from "./pages/About";
-import ForgotPassword from "./pages/Auth/ForgotPassword";
 import Home from "./pages/Home";
 import Welcome from "./pages/Welcome";
 
@@ -21,7 +20,6 @@ function  App(){
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/policy" element={<Policy />} />
-        <Route path="/forgot-password" element={<ForgotPassword/>} />
         <Route path="*" element={<PageNotFound />} />
     </Routes>
     
