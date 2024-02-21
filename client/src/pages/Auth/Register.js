@@ -135,7 +135,7 @@ const Register = () => {
               value={status}
               className="form-control"
               id="exampleInputEmail1"
-              placeholder="What is your prime status"
+              placeholder="prime or notprime"
               required
             />
           </div>
